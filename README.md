@@ -64,51 +64,8 @@ The main conservation workflow is:
 ## 🛠️ Technologies Used
 
 - **HTML5** — page structure and content
-- **JavaScript** — application logic, interactions, calculations, state management, and dynamic UI updates
-- **Tailwind CSS** — responsive styling and layout
-- **Chart.js** — consumption-trend visualization
-- **Font Awesome** — interface icons
-- **Google Fonts (Inter)** — typography
 
 The supplied website is implemented as a frontend application and loads its external UI libraries through CDNs.
-
-## 📁 Project Structure
-
-For the current single-file implementation:
-
-```text
-AquaTrack/
-└── index.html
-```
-
-If the project is later expanded, a more modular structure could be used:
-
-```text
-AquaTrack/
-├── index.html
-├── css/
-│   └── style.css
-├── js/
-│   └── app.js
-└── assets/
-    └── images/
-```
-
-## ▶️ Running the Project
-
-AquaTrack does not require a backend server for the supplied demo version.
-
-### Option 1 — Open directly
-1. Download or clone the project.
-2. Open `index.html` in a modern web browser.
-3. Use the navigation tabs to explore the Overview, Dashboard, Leak Reporting, and Leaderboard sections.
-
-### Option 2 — Use VS Code
-1. Open the project folder in Visual Studio Code.
-2. Open `index.html`.
-3. Run it using a local development extension such as **Live Server**, or open the file in your browser.
-
-> An internet connection may be required when running the page normally because Tailwind CSS, Font Awesome, Chart.js, and Google Fonts are loaded from CDNs.
 
 ## 💾 Data & Demo Behaviour
 
@@ -137,7 +94,7 @@ The portal is designed with several user groups in mind:
 
 ## 🎓 Project Context
 
-AquaTrack was developed as **Team 6's Water Conservation Portal** project. The team's overall concept combines several possible approaches, including smart monitoring, leak detection, gamification, wastage reporting, predictive analytics, and automated water-management ideas. The final selected web solution is the **AquaTrack Gamified Water Conservation Monitoring Portal**.
+AquaTrack was developed as a Water Conservation Portal** project. The team's overall concept combines several possible approaches, including smart monitoring, leak detection, gamification, wastage reporting, predictive analytics, and automated water-management ideas. The final selected web solution is the **AquaTrack Gamified Water Conservation Monitoring Portal**.
 
 ## 📌 Limitations
 
@@ -181,4 +138,3 @@ The website includes links/references to:
 
 ---
 
-**AquaTrack — Every drop counts. 💧**
